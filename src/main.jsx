@@ -4,7 +4,7 @@ import App from './App'
 import { LanguageProvider } from './context/LanguageContext'
 import './index.css'
 
-// Wrap the whole application with the LanguageContext Provider
+// Wrap the whole application with the Language Provider wrapper component from your LanguageContext.jsx file
 const Root = () => {
   return (
     <LanguageProvider>
