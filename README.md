@@ -20,4 +20,4 @@ Good Luck!
 
 ## Application Component Tree
 
-![Tree](/assets/context-diagram.png)
+![Tree](./src/assets/context-diagram.png)
