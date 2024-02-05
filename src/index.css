@@ -1,5 +1,54 @@
-* {
+/* TODO Add site wide styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+input {
+  padding: 5px;
+  font-size: 1.1rem;
+  width: 20rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+span {
+  color: blue;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+nav {
+  height: 30px;
+  background: black;
+  color: white;
+  text-align: right;
+  padding: 5px 15px 0 0;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  background-color: yellowgreen;
+
+  font-size: 1.1rem;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: yellow;
+
+    font-weight: bold;
+  }
 }
