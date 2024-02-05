@@ -1,5 +1,9 @@
 # React Context
 
+## Application Component Tree
+
+![Tree](./src/assets/context-diagram.png)
+
 This application uses React Context to change the language of a nested Form Component and a non-nested Nav Component from english to french and vice versa.
 
 The code in this repo has many comments. <br />
@@ -17,7 +21,3 @@ Use the comments as well as the videos to increase your understanding of React C
 1. Use your custom hook to consume the data in whichever component you choose.
 
 Good Luck!
-
-## Application Component Tree
-
-![Tree](./src/assets/context-diagram.png)
