@@ -29,7 +29,7 @@ export default function Form() {
         <label htmlFor="firstName">
           <input
             type="text"
-            placeholder={name.firstName}
+            placeholder={firstName}
             value={name.firstName}
             id="firstName"
             onChange={(e) =>
@@ -40,7 +40,7 @@ export default function Form() {
         <label htmlFor="lastName">
           <input
             type="text"
-            placeholder={name.lastName}
+            placeholder={lastName}
             value={name.lastName}
             id="lastName"
             onChange={(e) =>
